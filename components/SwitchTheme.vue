@@ -4,7 +4,7 @@ import { Moon, Sun } from 'lucide-vue-next'
 const colorMode = useColorMode()
 
 function toggleTheme() {
-  const preferences = ['light', 'dark', 'system']
+  const preferences = ['light', 'dark']
   const currentIndex = preferences.indexOf(colorMode.preference)
   const nextIndex = (currentIndex + 1) % preferences.length
   colorMode.preference = preferences[nextIndex]
