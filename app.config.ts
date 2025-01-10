@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  title: 'Sink',
+  title: 'RutGon',
   email: 'contact@namvu.net',
   github: 'https://github.com/vnt87/sink',
   twitter: 'https://sink.cool/kai',
