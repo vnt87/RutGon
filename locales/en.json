@@ -1,0 +1,14 @@
+{
+  "app": {
+    "title": "RutGon",
+    "description": "A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare."
+  },
+  "header": {
+    "theme": "Theme",
+    "logout": "Logout"
+  },
+  "footer": {
+    "language": "Language",
+    "github": "GitHub"
+  }
+}

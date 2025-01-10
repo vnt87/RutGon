@@ -14,6 +14,8 @@ function toggleTheme() {
 <template>
   <Button
     variant="ghost"
+    size="icon"
+    class="text-gray-500 hover:text-gray-900 dark:hover:text-gray-50"
     @click="toggleTheme"
   >
     <Sun

@@ -23,6 +23,15 @@ const { title, github } = useAppConfig()
       <span
         class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
       >
+        <ClientOnly>
+          <select
+            v-model="$i18n.locale"
+            class="text-gray-400 bg-transparent border-0 focus:ring-0"
+          >
+            <option value="en">English</option>
+            <option value="vi">Tiếng Việt</option>
+          </select>
+        </ClientOnly>
         <a
           v-if="github"
           :href="github"

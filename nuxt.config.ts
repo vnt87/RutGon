@@ -1,12 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-
   modules: [
     '@nuxthub/core',
     'shadcn-nuxt',
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
+    '@nuxtjs/i18n',
   ],
   devtools: { enabled: true },
 
@@ -67,6 +67,16 @@ export default defineNuxtConfig({
     config: {
       stylistic: true,
       standalone: false,
+    },
+  },
+
+  i18n: {
+    defaultLocale: 'en',
+    strategy: 'no_prefix',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
     },
   },
 })

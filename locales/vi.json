@@ -1,0 +1,14 @@
+{
+  "app": {
+    "title": "RutGon",
+    "description": "Công cụ rút gọn liên kết đơn giản / nhanh chóng / bảo mật với phân tích, 100% chạy trên Cloudflare."
+  },
+  "header": {
+    "theme": "Giao diện",
+    "logout": "Đăng xuất"
+  },
+  "footer": {
+    "language": "Ngôn ngữ",
+    "github": "GitHub"
+  }
+}
