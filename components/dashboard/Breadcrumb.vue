@@ -32,7 +32,5 @@ const { title } = useAppConfig()
         <BreadcrumbPage>{{ title }}</BreadcrumbPage>
       </BreadcrumbItem>
     </BreadcrumbList>
-
-    <DashboardLogout />
   </Breadcrumb>
 </template>
